@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 nav#menu ul{
@@ -23,3 +24,22 @@ header{
     background-color:rgb(250, 250, 250);
     padding-top: 70px;
     padding-bottom: 60px;
+    position: relative
+}
+   /*Pseudoclasses para estatilição de menu de nagevação*/
+   nav#menu a:link{
+    text-decoration:none;
+    color:antiquewhite;
+    font-weight: bold;
+   }
+   nav#menu a:visited{
+      text-decoration: none;
+      color:antiquewhite;
+      font-weight: bold;
+   }
+   nav#menu a:hover{
+       color:rgb(76, 47, 180);
+   }
+   nav#menu li:hover{
+    
+   }
